@@ -3,14 +3,8 @@ import './global.css';
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Bem Vindo ao App Filmes!</Text>
+    <View className="flex-1 justify-center items-center">
+      <Text className="text-5xl text-dark-200 font-bold">Bem Vindo ao App Filmes!</Text>
     </View>
   );
 }
